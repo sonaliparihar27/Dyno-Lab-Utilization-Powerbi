@@ -68,3 +68,46 @@ Established relationships:
 - Utilization %
 
 Utilization Formula:
+
+
+---
+
+### 5️⃣ Dashboard Visualizations
+
+- Monthly Utilization Trends (Line Chart)
+- Hour Distribution (Donut Chart)
+- Engineer-wise Utilization (Bar Chart)
+- Testbed Performance (Stacked Bar)
+- Category-wise Distribution (Pie Chart)
+- Model-wise Analysis
+
+---
+
+## 📊 Insights Generated
+- Identified underutilized testbeds
+- Highlighted breakdown trends
+- Tracked engineer efficiency
+- Improved visibility into operations
+
+---
+
+## 🚧 Challenges Faced
+- No structured dataset initially
+- Handling complex working day logic
+- Designing scalable data model
+- Creating meaningful KPIs
+
+---
+
+## 📈 Impact
+- Eliminated manual reporting effort
+- Improved operational visibility
+- Enabled data-driven decision-making
+- Optimized resource allocation
+
+---
+
+## 🚀 Future Improvements
+- Real-time dashboard integration
+- Predictive maintenance using historical trends
+- Automated alerts for low utilization
