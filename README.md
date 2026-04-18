@@ -1,34 +1,70 @@
 # 📊 Dyno Lab Utilization Dashboard (Power BI)
 
 ## 📌 Overview
-Built an end-to-end Power BI dashboard to track utilization of automotive testbeds.
+This project is an end-to-end Power BI solution built to monitor and analyze the utilization of Dyno Labs used for automotive testing.
+
+The dashboard provides insights into operational efficiency, helping management track utilization, idle time, breakdown hours, and engineer workload.
+
+> ⚠️ Note: Sample data is used for demonstration purposes.
 
 ---
 
 ## 🎯 Objective
-- Monitor utilization %
-- Track idle & breakdown hours
+- Track utilization efficiency of testbeds
+- Monitor idle and breakdown hours
 - Analyze engineer workload
+- Provide insights for better resource planning
 
 ---
 
-## 🛠 Tools
+## 🛠 Tools & Technologies
 - Power BI
-- DAX
-- Excel
+- DAX (Data Analysis Expressions)
+- Excel (data collection & validation)
 
 ---
 
-## ⚙️ Work Done
-- Designed data collection template
-- Built star schema data model
-- Created DAX measures (Utilization %, Idle Hours, etc.)
-- Developed interactive dashboard
+## ⚙️ Methodology
+
+### 1️⃣ Data Collection Design
+- Designed Excel-based data entry template
+- Implemented validation rules and dropdown controls
+- Standardized logging format for reliable data input
 
 ---
 
-## 📈 Impact
-- Reduced reporting time to zero
-- Improved operational visibility
-- Enabled better resource planning# Dyno-Lab-Utilization-Powerbi
-Built an end-to-end Power BI dashboard to track utilization of automotive testbeds.
+### 2️⃣ Custom Calendar (DAX)
+Created a custom calendar to handle:
+- Company-specific working days
+- Special holidays
+- Working Saturdays
+- Non-standard schedules
+
+---
+
+### 3️⃣ Data Modeling (Star Schema)
+
+#### Dimension Tables:
+- DimDate
+- DimEngineer
+- DimTestbed
+- DimModel
+- DimCategory
+
+#### Fact Table:
+- FactTestHours
+
+Established relationships:
+- Fact → Dimension (Many-to-One)
+- Single-direction filtering for performance optimization
+
+---
+
+### 4️⃣ Key DAX Measures
+
+- Total Working Hours
+- Idle Hours
+- Breakdown Hours
+- Utilization %
+
+Utilization Formula:
