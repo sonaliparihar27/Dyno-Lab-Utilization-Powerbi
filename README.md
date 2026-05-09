@@ -5,7 +5,8 @@ This project is an end-to-end Power BI solution built to monitor and analyze the
 
 The dashboard provides insights into operational efficiency, helping management track utilization, idle time, breakdown hours, and engineer workload.
 
-## One of the projects I worked on was a Testbed Utilization Dashboard in Power BI. The goal was to track testbed efficiency, monitor idle and breakdown hours, and analyze engineer workload for better resource planning.
+## 
+One of the projects I worked on was a Testbed Utilization Dashboard in Power BI. The goal was to track testbed efficiency, monitor idle and breakdown hours, and analyze engineer workload for better resource planning.
 
 I first designed an Excel-based data collection template with validation rules to ensure accurate and standardized data entry. Then, I built a star schema data model in Power BI using dimension and fact tables. I also created a custom calendar in DAX to handle company-specific working days, holidays, and working Saturdays.
 
